@@ -1,0 +1,95 @@
+nav a {
+	display: block;
+	color: purple;
+	text-align: center;
+	text-decoration: none;
+}
+nav a:hover {
+	background-color: rgb(209, 209, 209);
+}
+nav {
+	background-color: white;
+}
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+nav li {
+	flex: 1;
+}
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	font: Trebuchet MS;
+	background-color: rgb(43, 43, 43);
+}
+main{
+	padding: 20px;
+}
+p {
+	font-size: 20px;
+	color: white;
+}
+li {
+	font-size: 20px;
+	color: white;
+}
+h1 {
+	color: white;
+}
+h2 {
+	color: white;
+}
+h3 {
+	color: white;
+}
+progress {
+	display:block;
+	width:100%;
+	height:50px;
+	padding: 15px 0 0 0;
+	margin: 0;
+	background:none;
+	border: 0;
+	text-align: center;
+	position: relative;
+}
+progress::-webkit-progress-bar {
+	height:30px;
+	width:1600px;
+	margin: 0;
+	background-color:white;
+	border-radius:100px;
+}
+progress::-webkit-progress-value {
+	display: block;
+	height:40px;
+	margin:0 0 0 0;
+	padding-left: 50px;
+	background:gray;
+	border-radius:100px;
+}
+progress:after {
+	margin: -30px 0 0 -220px;
+	padding:0;
+	display: block;
+	content: attr(value) '%';
+    color:black;
+	font-weight: bold;
+}
+.box {
+	display: flex;
+	align-items: center;
+  	justify-content: center;
+	gap: 20px;
+}
+.box1 {
+	display: flex;
+	align-items: center;
+  	justify-content: center;
+	gap: 50px;
+	padding-right: 45px;
+}
